@@ -1,1 +1,24 @@
-README.md
+# Ignore everything by default
+*
+
+# Allow only specific file types
+!*.py
+!*.md
+!*.txt
+!*.ipynb
+!*jpeg
+!*svg
+!*.png
+!LICENSE
+!*.gif
+!all_rag_techniques
+!data
+!evaluation
+!images
+!*.yml
+!.github
+!.github/workflows
+
+# remove specific files
+__pycache__/
+__init__.py
